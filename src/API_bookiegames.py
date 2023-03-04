@@ -1,5 +1,6 @@
+
 import flask
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, request, render_template
 from flask_cors import CORS
 from flask_mysqldb import MySQL
 from config import config
